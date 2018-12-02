@@ -1062,10 +1062,10 @@ ocamldoc.opt: ocamlc.opt ocamlyacc ocamllex
 
 # OCamltest
 ocamltest: ocamlc ocamlyacc ocamllex
-	$(MAKE) -C ocamltest
+#	$(MAKE) -C ocamltest
 
 ocamltest.opt: ocamlc.opt ocamlyacc ocamllex
-	$(MAKE) -C ocamltest ocamltest.opt$(EXE)
+#	$(MAKE) -C ocamltest ocamltest.opt$(EXE)
 
 partialclean::
 	$(MAKE) -C ocamltest clean
